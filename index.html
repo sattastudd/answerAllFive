@@ -25,7 +25,109 @@
     </script>
   </head>
   <body>
-   
+   <div ng-controller="DefaultController">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12  backColor">
+                <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4" ng-hide="searchActive"><h4>HakoonaMatata</h4></div>
+                <div class="col-xs-12 hidden-sm hidden-lg hidden-md" ng-show="searchActive">
+                    <input type="text" ng-blur="searchDeactive()" class="form-control" ng-model="search" placeholder="u type here" autofocus/>
+                </div>
+                <div class="hidden-xs col-md-4 col-sm-4 col-lg-4 hideInput">
+                    <input type="text" class="form-control" ng-model="search" placeholder="u type here" />
+                </div>
+                <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4">
+                    <div class="row">
+                        <div>
+                            <h5 class="login">Login</h5>
+                        </div>
+                        <div>
+                            <h5 class="login">lo</h5>
+                        </div>
+                        <div>
+                            <h5 class="login" ng-click="searchCalled()">se</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container-fluid">
+            <div class="row welcomeText">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 textMargin">
+                    <h3 align="center">Answer All five provides you 5 questions every 3 hours related to your choice of preparation.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m10">
+                    <h2 align="center">Prepare For</h2>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">CAT</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">GMAT</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">CMAT</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">NET</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">CLAT</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">SSC</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">GK</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                        <h3 align="center">IBPS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="mtop20">
+                <div class="row playForBlock">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m10">
+                        <h2 align="center">Play For</h2>
+                    </div>    
+                </div>
+                <div class="row playForBlock">
+                    <div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3 ptop15">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                            <h4 align="center">Mobile Recharge</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ptop15">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnBlock">
+                            <h4 align="center">Coupons</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
   </body>
 </html>
 
