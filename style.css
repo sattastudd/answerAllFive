@@ -1,77 +1,23 @@
-.backColor {
-    position: fixed;
-    background-color: #932d87;
-    color:white;
-    height: 50px;
-    padding-top: 3px;
-    z-index: 2;
-    box-shadow: 0px 1px 1px #932D87
+body {background-color:#229FC0;
+color:white; text-align:center}
+
+.fieldBlock{
+  border: 1px solid;
+  height: 120px;
+  width: 123px;
+  padding-top: 42px;
+  border-radius: 60px;
+  background-color: rgb(24, 131, 160);
 }
-.m10{
-    margin-top:10px;
-    margin-bottom:18px;
-}
-.ptop15{
-    padding-top:15px;
-}
-.mtop20{
-   margin-top:40px;
-}
-.playForBlock{
-    background-color: gainsboro;
-}
-.welcomeText{
-    margin-top:40px;
-    color:white;
-    background-color: #932d87;
-    height: 260px;
-}
-.textMargin{
-  margin-top: 78px;
-  margin-bottom: 45px;
-}
-.login{
-    float: right;
-    padding-right: 20px;
-}
-.btnBlock:hover{
-    box-shadow: 0 9px 10px 0px #555;
-    top: -1px;
-}
-.btnBlock{
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.26);
-    top: 0px;
-    -webkit-transition: all .5s;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    background-color: whitesmoke;
-}
-.timerBlock{
-    margin-top: 100px;
-    border-bottom: 1px solid gainsboro;
-}
-.timerFont{
-    font-size:22px;
-    color:red;
-}
-.questionTitle{
-    text-align:center;
-    font-size:20px;
-    color:#7b2d87;
-}
-@media (max-width: 450px){
-    .questionTitle{
-         font-size:12px;
-    }
-    .timerFont{
-        font-size:16px;
-    }
-}
-@media (max-width: 768px){
-    .timerBlock{
-        margin-top: 60px;
-    }
-    .textMargin{
-      margin-top: 30px;
+
+@media (max-width: 768px) {
+h1{font-size: 24px}
+h2{font-size: 19px}
+h3{font-size: 16px}
+
+    .fieldBlock{
+      height: 90px;
+      width: 92px;
+      padding-top: 35px;
     }
 }
